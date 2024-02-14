@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter</title>
+<link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" href="assets/images/counter-favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--COUNTER-->
+  <main>
+    <div class="counter-container">
+      <h1 class="counter-title"></h1>
+      <div class="counter">
+        <div class="number"></div>
+        <div class="counter-buttons">
+        </div>
+      </div>
+    </div>
+    <div class="setting-container">
+    </div>
+  </main>
+
+  <!--ADDITIONAL FUNCTIONS-->
+  <div class="custom-window hidden">
+    <h1>Settings</h1>
+
+    <div>
+      <p>Title:</p>
+      <input type="text" placeholder="es: 'Books'" class="title-input">
+    </div>
+
+    <div>
+      <p>Goal:</p>
+      <input type="number" class="goal-input">
+    </div>
+
+    <fieldset>
+      <p>Color:</p>
+      <input type="radio" id="pink" name="color"></input>
+      <label for="pink">Pink</label> <br>
+      <input type="radio" id="lilac" name="color"></input>
+      <label for="lilac">Lilac</label> <br>
+      <input type="radio" id="blue" name="color"></input>
+      <label for="blue">Blue</label> <br>
+      <input type="radio" id="default" name="color"></input>
+      <label for="default">Default</label>
+    </fieldset>
+
+    <button class="done-button">Done</button>
+  </div>
+  <div class="back-window hidden"></div>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

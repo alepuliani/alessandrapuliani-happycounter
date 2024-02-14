@@ -1,0 +1,85 @@
+// COUNTER
+main {
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  right: 10%;
+  left: 10%;
+
+  .counter-container {
+    background-image: url(/assets/images/background.png);
+    background-size: cover;
+    border: 2px solid rgba($color: #666666, $alpha: 0.5);
+    border-radius: 30px;
+    padding: 5% 10%;
+    box-shadow: 0 0 30px (rgba($color: #000000, $alpha: .4));
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .counter {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+
+      .number {
+        font-size: 100px;
+      }
+    }
+  }  
+
+  button {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(246, 246, 246);
+    border: 1px solid rgba($color: #242424, $alpha: 0.5);
+    border-radius: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    touch-action: manipulation;
+    box-shadow: 0 0 7px rgba($color: #000000, $alpha: 0.2);
+
+    &:active {
+      opacity: 0.8;
+    }
+  }
+
+  .setting-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    .goal-number {
+      font-size: 30px;
+      margin: 0 10px;
+    }
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    top: 30%;
+    bottom: 30%;
+    right: 25%;
+    left: 25%;
+
+    h1 {
+      font-size: 40px;
+      padding-top: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  main {
+    top: 25%;
+    bottom: 25%;
+    right: 35%;
+    left: 35%;
+  }
+}

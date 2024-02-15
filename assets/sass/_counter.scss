@@ -7,7 +7,7 @@ main {
   left: 10%;
 
   .counter-container {
-    background-image: url(assets\images\back.png);
+    background-image: url(/assets/images/back.png);
     background-size: cover;
     border: 2px solid rgba($color: #666666, $alpha: 0.5);
     border-radius: 30px;
@@ -18,6 +18,11 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
+    
+    h1 {
+      font-size: 20px;
+    }
 
     .counter {
       display: flex;

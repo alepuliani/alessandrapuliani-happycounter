@@ -7,7 +7,7 @@ main {
   left: 10%;
 
   .counter-container {
-    background-image: url(../images/back.PNG);
+    background-image: url(assets\images\back.png);
     background-size: cover;
     border: 2px solid rgba($color: #666666, $alpha: 0.5);
     border-radius: 30px;
@@ -24,12 +24,22 @@ main {
       align-items: center;
       flex-direction: column;
 
-
       .number {
         font-size: 100px;
       }
     }
-  }  
+  } 
+
+  .setting-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    .goal-number {
+      font-size: 30px;
+      margin: 0 10px;
+    }
+  }
 
   button {
     margin: 10px;
@@ -46,17 +56,6 @@ main {
 
     &:active {
       opacity: 0.8;
-    }
-  }
-
-  .setting-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  
-    .goal-number {
-      font-size: 30px;
-      margin: 0 10px;
     }
   }
   

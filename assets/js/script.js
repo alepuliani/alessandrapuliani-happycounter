@@ -105,13 +105,13 @@ function applyCustom() {
     goalDiv.classList.remove('hidden');
     goalDiv.classList.add('flex');
   }
-}
+};
 
 function changeColor(color) {
   for(let button of buttons) {
     button.style.backgroundColor = color;
   }
-}
+};
 
 function pickColor() {
   for(let radioButton of radioButtons) {
@@ -121,13 +121,13 @@ function pickColor() {
       if (color == 'pink') {
         changeColor('#ffb6e5')
       } else  if (color == 'lilac') {
-        changeColor('#e2bbff')
+        changeColor('#e2bbff');
       } else  if (color == 'blue') {
-       changeColor('#a4caff')
+       changeColor('#a4caff');
       } else  if (color == 'default') {
-        changeColor('#f6f6f6')
-      }
-    }
+        changeColor('#f6f6f6');
+      };
+    };
   }
 }
 

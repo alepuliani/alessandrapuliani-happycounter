@@ -125,7 +125,7 @@ function pickColor() {
         changeColor('#e2bbff')
       } else  if (color == 'blue') {
        changeColor('#a4caff')
-      } else  if (color == 'default') {
+      } else  if (color == 'light') {
         changeColor('#f6f6f6')
       }
     }

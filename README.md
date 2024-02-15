@@ -13,7 +13,7 @@ You can keep the counter with the starting options or you can customize it with 
 
 • A title that can indicate the category (books you want to read, glasses of water you should drink..)
 
-• A goal that will keep track of how much you have left to reach it and when we have achieved it
+• A goal that will keep track of how much you have left to reach it and when you achieved it
 
 • It is also possible to change the color of the buttons to make the counter more personal.
 

@@ -14,4 +14,16 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.8;
+    
+  h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    h1 {
+      font-size: 35px;
+    }
+  }
 }

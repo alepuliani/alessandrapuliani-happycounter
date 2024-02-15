@@ -19,11 +19,6 @@ main {
     align-items: center;
     justify-content: space-around;
 
-    
-    h1 {
-      font-size: 20px;
-    }
-
     .counter {
       display: flex;
       align-items: center;
@@ -70,13 +65,10 @@ main {
   main {
     top: 30%;
     bottom: 30%;
-    right: 25%;
-    left: 25%;
+    right: 22%;
+    left: 22%;
 
-    h1 {
-      font-size: 40px;
-      padding-top: 10px;
-    }
+
   }
 }
 
@@ -84,7 +76,7 @@ main {
   main {
     top: 25%;
     bottom: 25%;
-    right: 35%;
-    left: 35%;
+    right: 33%;
+    left: 33%;
   }
 }

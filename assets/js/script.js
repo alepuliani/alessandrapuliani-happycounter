@@ -71,7 +71,6 @@ init();
   };
   if(goal.textContent == 0 && goal.textContent != '') {
     counterTitle.textContent = 'YOU\'VE DONE IT!';
-    counterTitle.style.fontSize = '30px';
   };
 };
 
@@ -125,7 +124,7 @@ function pickColor() {
         changeColor('#e2bbff')
       } else  if (color == 'blue') {
        changeColor('#a4caff')
-      } else  if (color == 'light') {
+      } else  if (color == 'default') {
         changeColor('#f6f6f6')
       }
     }

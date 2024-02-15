@@ -9,7 +9,7 @@ A counter to help you keep track of your progress.
 
 With this simple counter you can monitor what you want thanks to the + and - buttons that will make the number increase or decrease, keeping track of the changes and it is possible to reset the number at any time with the reset button.
 
-You can leave the counter with the starting options or you can customise it with additional functions: 
+You can leave the counter with the starting options or you can customize it with additional functions: 
 
 • A title that can indicate the category (books you want to read, glasses of water you should drink..)
 

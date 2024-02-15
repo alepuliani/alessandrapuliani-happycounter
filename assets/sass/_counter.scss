@@ -42,6 +42,7 @@ main {
     cursor: pointer;
     touch-action: manipulation;
     box-shadow: 0 0 7px rgba($color: #000000, $alpha: 0.2);
+    color: rgb(24, 24, 24);
 
     &:active {
       opacity: 0.8;

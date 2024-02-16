@@ -16,7 +16,7 @@ With this simple counter you can monitor what you want thanks to the **+** and *
 
 ## Additional functionalities
 
-You can keep the counter with the starting options or you can customize it with additional functions: 
+You can keep the counter with the starting options or you can customize it with additional functionalities: 
 
 - A **title** that can indicate the category of your goal (books you want to read, glasses of water you should drink..)
 

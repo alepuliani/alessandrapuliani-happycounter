@@ -33,7 +33,7 @@ const goal = document.createElement('div');
 
 customButton.innerHTML = '<i class="bi bi-gear"></i>';
 closeButton.innerHTML = '<i class="bi bi-x"></i>';
-goalLeft.innerHTML = 'Left:'
+goalLeft.innerHTML = 'Left:';
 
 let buttons = [minusButton, plusButton, resetButton, customButton];
 let color;
@@ -52,22 +52,23 @@ settingContainer.prepend(goalDiv);
 goalDiv.prepend(goalLeft);
 goalDiv.append(goal);
 
+// COUNTER FUCTIONS
+
 //STARTING CONDITION
-const init = function() {
+function init() {
   counterNumber.textContent = 0;
   counterTitle.textContent = 'Happy Counter';  
   goal.textContent = '';
   goalDiv.classList.add('hidden');
   goalDiv.classList.remove('flex');
-}
+};
 
 init();
 
-// COUNTER FUCTIONS
- function incrementCounter() {
+function incrementCounter() {
   counterNumber.textContent++;
   if(goal.textContent != 0) {
-    goal.textContent--
+    goal.textContent--;
   };
   if(goal.textContent == 0 && goal.textContent != '') {
     counterTitle.textContent = 'YOU\'VE DONE IT!';
@@ -77,7 +78,7 @@ init();
 function decrementCounter() {
   if(counterNumber.textContent > 0) {
     counterNumber.textContent--;
-    goal.textContent++
+    goal.textContent++;
   }
 };
 
@@ -129,24 +130,19 @@ function pickColor() {
       };
     };
   }
-}
+};
 
 // Adding the events
 
 // COUNTER EVENTS
 plusButton.addEventListener('click', incrementCounter);
-
 minusButton.addEventListener('click', decrementCounter);
-
 resetButton.addEventListener('click', init);
 
 // CUSTOM SETTINGS EVENTS
 customButton.addEventListener('click', openCustom);
-
 closeButton.addEventListener('click', closeCustom);
-
 background.addEventListener('click', closeCustom);
-
 doneButton.addEventListener('click', applyCustom);
 doneButton.addEventListener('click', closeCustom);
 doneButton.addEventListener('click', pickColor);

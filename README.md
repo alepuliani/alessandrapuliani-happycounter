@@ -14,7 +14,7 @@ To achieve this, a _cheerful_, _friendly_ and _customizable_ interface was chose
 
 With this simple counter you can monitor what you want thanks to the **+** and **-** buttons that will make the number increase or decrease, keeping track of the changes and it is possible to reset the number at any time with the **reset** button.
 
-## Additional functions 
+## Additional functionalities
 
 You can keep the counter with the starting options or you can customize it with additional functions: 
 
